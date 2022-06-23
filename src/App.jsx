@@ -1,4 +1,5 @@
 import React from 'react';
+import Card from './components/Card';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
           Pesquisar
         </button>
       </form>
+
+      <Card />
     </div>
   );
 }
