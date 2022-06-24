@@ -1,12 +1,13 @@
 /* eslint-disable no-console */
 import React, { useState } from 'react';
 import fetchData from './services/api';
+import dadoinicial from './helpers/DadosIniciais';
 
 import Card from './components/Card';
 
 function App() {
   const [cidade, setCidade] = useState('');
-  const [data, setData] = useState({});
+  const [data, setData] = useState(dadoinicial);
 
   const handleSubmit = (event) => {
     event.preventDefault();
