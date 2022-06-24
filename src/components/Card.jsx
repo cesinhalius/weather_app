@@ -1,7 +1,4 @@
 /* eslint-disable linebreak-style */
-// eslint-disable-next-line linebreak-style
-/* eslint-disable no-multiple-empty-lines */
-/* eslint-disable linebreak-style */
 import React from 'react';
 
 function Card() {
@@ -9,7 +6,6 @@ function Card() {
     <div className="bg-white p-6 mt-10 rounded-md border-1 border-slate-50 shadow-2xl shadow-black">
       <div className="text-center">
         <span className="block text-xl font-bold text-slate-700">Cidade</span>
-        <span className="text-slate-400 text-sm font-medium">Estado</span>
       </div>
 
       <div className="font-bold text-slate-700 flex mt-3 mb-2">
@@ -25,5 +21,4 @@ function Card() {
   );
 }
 
-// eslint-disable-next-line linebreak-style
 export default Card;
