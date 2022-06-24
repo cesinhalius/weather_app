@@ -1,9 +1,11 @@
 /* eslint-disable no-console */
-import React from 'react';
-import Card from './components/Card';
+import React, { useState } from 'react';
 import fetchData from './services/api';
+import Card from './components/Card';
 
 function App() {
+  const [cidade, setCidade] = useState('');
+
   const handleSubmit = (event) => {
     event.preventDefault();
 
@@ -19,6 +21,7 @@ function App() {
           type="text"
           placeholder="Cidade"
           className="p-3 rounded-lg outline-none"
+          onChange={(event) => setCidade(event.target.value)}
         />
         <button
           type="submit"
@@ -27,7 +30,7 @@ function App() {
           Pesquisar
         </button>
       </form>
-
+      {cidade}
       <Card />
     </div>
   );
