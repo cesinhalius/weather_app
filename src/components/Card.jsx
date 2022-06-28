@@ -20,7 +20,7 @@ function Card({ data }) {
       </div>
 
       <div className="text-center">
-        <img src={current.condition.icon} alt="" />
+        <span className="text-center"><img src={current.condition.icon} alt="icon" /></span>
         <span className="text-slate-700 font-medium">{current.condition.text}</span>
       </div>
     </div>
