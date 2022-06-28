@@ -18,11 +18,12 @@ function App() {
   };
 
   return (
-    <div className="flex flex-col w-full h-screen items-center justify-center">
+    <div className="flex flex-col w-full h-screen items-center justify-center bg-gradient-to-r from-violet-500 to-fuchsia-500">
+      <h1 className="flex mb-5 w-full items-center justify-center text-3xl uppercase">Weather App</h1>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
-          placeholder="Cidade"
+          placeholder="Ex: Campinas"
           className="p-3 rounded-lg outline-none"
           value={cidade}
           onChange={({ target: { value } }) => setCidade(value)}
