@@ -5,3 +5,4 @@ o como esta o clima do dia.
 
 | funcionalidades | status |
 |-----------------| -------|
+|                 | 💣|
