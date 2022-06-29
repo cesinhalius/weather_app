@@ -5,4 +5,10 @@ o como esta o clima do dia.
 
 | funcionalidades | status |
 |-----------------| -------|
-|                 | 💣|
+|  Card do tempo  |   [x]  |
+|  busca de cidade|   [x]  |
+|  Conexão com a  |        |
+|  API            |   [x]  |
+|  Estilização dos|        |
+|  elemento       |   []  |
+
