@@ -7,8 +7,6 @@ o como esta o clima do dia.
 |-----------------| -------             |
 |  Card do tempo  | :white_check_mark:  |
 |  busca de cidade| :white_check_mark:  |
-|  Conexão com a  | :white_check_mark:  |
-   API                                   
-|  Estilização dos|                     |
-|  elemento       |                     |
+|  Conexão com a API | :white_check_mark:  |                                   
+|  Estilização dos elemento|            |
 
