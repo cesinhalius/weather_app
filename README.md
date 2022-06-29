@@ -5,7 +5,7 @@ o como esta o clima do dia.
 
 | funcionalidades | status |
 |-----------------| -------|
-|  Card do tempo  |   [x]  |
+|  Card do tempo  | :white_check_mark:  |
 |  busca de cidade|   [x]  |
 |  Conexão com a  |        |
 |  API            |   [x]  |
