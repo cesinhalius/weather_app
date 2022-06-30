@@ -17,7 +17,7 @@ function App() {
     });
   };
   return (
-    <div className="flex flex-col w-full h-screen items-center justify-center bg-slate-600">
+    <div className="flex flex-col w-full h-screen items-center justify-center bg-slate-300">
       <h1 className="flex mb-5 w-full items-center justify-center text-3xl uppercase">Weather App</h1>
       <form onSubmit={handleSubmit}>
         <input
