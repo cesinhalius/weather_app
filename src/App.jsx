@@ -24,13 +24,13 @@ function App() {
         <input
           type="text"
           placeholder="Ex: Campinas"
-          className="p-3 rounded-lg outline-none"
+          className="p-3 rounded-lg outline-none shadow-lg shadow-black"
           value={cidade}
           onChange={({ target: { value } }) => setCidade(value)}
         />
         <button
           type="submit"
-          className="bg-sky-600 p-3 rounded-lg ml-3 text-white font-bold"
+          className="bg-sky-600 p-3 rounded-lg ml-3 text-white font-bold shadow-lg shadow-black"
         >
           Pesquisar
         </button>
