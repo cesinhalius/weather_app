@@ -19,7 +19,7 @@ function Card({ data }) {
         <span className="text-3xl mt-2">°C</span>
       </div>
 
-      <div className="text-center">
+      <div className="flex justify-center flex-col items-center">
         <img src={current.condition.icon} alt="" />
         <span className="text-slate-700 font-medium">{current.condition.text}</span>
       </div>
