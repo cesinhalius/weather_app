@@ -14,3 +14,15 @@ Foi desenvolvido utilizando React.js e TailwindCSS
 | Conexão com a API | :heavy_check_mark:  |                                   
 | Estilização dos elemento|:heavy_check_mark:|
 
+
+## Instalação
+
+Primeiro e necessario você ter o [Node.js](https://nodejs.org/en/) instalado
+e depois escreva essa instrução no seu Terminal
+````bash
+git clone https://github.com/cesinhalius/weather_app.git
+$ cd weather_app
+$ npm i         
+$ npm start 
+````
+
