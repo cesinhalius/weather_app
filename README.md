@@ -5,6 +5,8 @@ o como esta o clima do dia.
 
 - Só esta sem o arquivo da conexão com a API por causa da API_KEY
 
+Foi desenvolvido utilizando React.js e TailwindCSS
+
 | funcionalidades | status              |
 |-----------------| -------             |
 | Card do tempo  | :heavy_check_mark:  |
