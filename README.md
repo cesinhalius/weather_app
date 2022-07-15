@@ -5,6 +5,9 @@ o como esta o clima do dia.
 
 - Só esta sem o arquivo da conexão com a API por causa da API_KEY
 
+https://user-images.githubusercontent.com/43553774/179289864-dd2ddd2b-2622-4ba3-9ed6-3f6b994c4a02.mp4
+
+
 Foi desenvolvido utilizando React.js e TailwindCSS
 
 | funcionalidades | status              |
